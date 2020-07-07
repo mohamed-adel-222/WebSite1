@@ -1,0 +1,702 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -box-sizing:border-box;
+}
+@media{}
+body{margin:0px
+   ;perspective: 100x
+   ;perspective-origin:50% 50%/*or center & left& right*/}
+
+/*/check in Caniuse.com/ 
+-webkit- //chrome , safari,ios,android
+-moz-    //firefox
+-o-      //opera
+-ms-     //internet exploral*/
+
+main{[value="face"];background-color:red;position:fixed;padding:10px;bottom:3px;right:10px;display:fixed;
+    transform:rotate(-90deg);}
+
+#intro{background:black;margin:0}
+intro{display:block}
+#gmail{background:white;text-align:center;margin:0px;
+height:35px;width:250px;  
+border-bottom-color:red;border-color:red;border-width:0px 0px 2px 0px;margin-left: 500px;
+    margin-top:0px
+;font-size:20px;font-style:italic;color:black
+;border-radius:10px;
+outline:none}
+
+#password{background:white;text-align:center;margin:0px;
+height:35px;width:250px;  
+border-bottom-color:red;border-color:red;
+border-width:0px 0px 2px 0px;
+margin-top:10px
+    ;font-size:20px ;font-style:italic;
+color:black;border-radius:10px;
+outline:none}
+
+#sign{background:black;color:aliceblue;font-weight:bold;display:inline;
+ margin-top:0px;
+    border-color:red;border-width:2px 2px 0px 2px;width:80px;
+height:35px;border-radius:10px
+;outline:none}
+.meansection{background-image:url('../../../naser/77.jpg');background-attachment:fixed;margin:0px
+}
+
+header1{text-align:center;color:red;font-size:80px;margin-top:0px;margin-bottom:0px;font-family:Arial, Tahoma;
+/*text-shadow:Horizontal-Shadow, Vertical-Shadow, Blur-Radius, Color*/
+text-shadow:2px -3px 5px #EB3865;
+ opacity:0.8/*or filter: alpha(opacity=90)*/;
+}
+
+h1, h4, h5{margin:0px; direction:ltr;text-align:center;font-size:30px;
+    letter-spacing:5px;
+	;text-decoration:line-through;
+	text-decoration:overline}
+h1{background-color:#EEE;
+   padding:10px;
+   border: 1px solid #CCC;
+   font-Family:Arial, Tahoma;
+   Width:300px;
+   White-space:nowrap;
+   overflow: hidden;
+   word-wrap:break-word; /* بتكسر الجملهWhite-spaceاقوي من */
+    text-overflow:ellipsis
+}
+
+li{ color:#0c0cff } 
+p, address {font-size:20px;color:#ffffff;line-height:5px;text-align:center;
+  font-family:"Arial Black",Gadget,sans-serif
+  ;font-style:italic
+  ;font-weight:bold;margin:15px;padding:5px} 
+p:first-letter{font-size:25px;color:white}
+
+  /*<!-- font: font-style/font-weight/font-size/line-height/font-family -->*/
+      /* font:italic bold 30px/40px "Arial Black", Gadget, sans-serif*/
+p mark{color:white;background-color:green}
+
+ol, ul{font-size=10px;background-color:#f8ff86;display:inline;list-style: none}
+ul{display:inline;list-style-position:inside;
+	list-style-type:decimal;font-size:30px}
+.mm {margin:20px; background:white; direction:ltr; }
+
+audio{}
+
+a{text-decoration:none;display:block}
+a:hover{color:red;font-weight:bold}
+a:active{color:green}
+.1st{font-size=10px}
+.4{direction:ltr;margin:auto;padding:auto
+     ;word-spacing:20px
+	 ;letter-spacing:8px
+	  }
+.4:after{content:"amazing"}
+span.Cap{text-transform:capitalize}
+span.upper{text-transform:uppercase}
+span.lower{text-transform:lowercase}
+
+.5 p{background:green;padding:auto;margin:auto;
+     border-width:1px 2px 1px 5px;
+	 border-style:dashed solid dotted;
+	 border-color:red;
+     border:5px dashed red}
+     /*--border-button,bottom,left,right--!!! !!!--button right bottom left--*/
+	 /*-dashed or ,solid,groove,double,inset,outset,hidden--*/
+	 /*--لتعديل علي في التفاصيل والقاسات واتنويع بينهم يجب كتابه الكود مفصل دون اختصار--*/
+
+
+  <!--or;square -->
+.one,.two,.three{color:#fff;padding:10px;width:300px;margin:10px;
+      float:left}
+.onn{width:120px;height:100px
+      ;background:#DDD
+	  ;padding:10px
+	  ;overflow:scroll}
+	  /*--overfow hidden or scroll or visible or auto--*/
+	  
+	  
+div10,{background:red;color:#fff;padding:0px;width:100px;height:100px
+      ;bottom:%100px;right:0px;position:absolute
+	   ;z-index:5}
+div11{background:green;color:#fff;padding:20px;width:100px;height:100px
+      ;bottom:%100px;left:1350px;position:absolute
+	   ;z-index:4}
+div12{background:blue;color:#fff;padding:40px;width:100px;height:100px
+      ;bottom:%100;left:1300px;position:absolute
+	   ;z-index:3}
+ 
+div13{width:300px;padding:10px;background:#00f;color:#fff
+      ;borde r:5px solid #f00
+	  ;outline:5px solid green} 
+
+nav ul li: after {
+    content:" !" } 
+required: after {
+    content:"*"
+}
+
+.ME{    width: 150px;
+        margin:20px;
+        border-radius:80%;
+        box-shadow: 7px 7px 20px #E4E4E4,
+                    7px 7px 20px #E4E4E4;
+
+    
+/*rotate(x, y, z) => rotate 3D 
+  rotate(...deg)  =>        2D */   
+/*matrix = scale & rotate*/
+    
+}
+.ME:hover { 
+    margin:100px;
+    border-radius:10%;
+    padding:3px;
+    background-color:#FFF;
+    border:1px solid #CCC;
+    transition:all .6s ease-in-out;
+
+    transform: translate(50px, 50px) scale(2,2) rotate(-10deg) ; 
+    /*or translate 3D (x, y, z)
+     or   scale 3D (x, y, z)
+          scaleZ(...) */
+  
+}
+
+.border{ width:200px;
+         height:200px
+        ;background:red
+        ;margin:20 auto
+        ;border-radius:70px
+        ;transition: all 1s ease-in-out
+        }
+.border:hover {
+               transform: rotate(360deg);
+               transform-origin: top left;
+    
+}
+
+.father{
+    width: 300px;
+    height:300px;
+    margin:50px auto;
+    position:relative;
+    background-color:#080;
+    transition :all .5s ease-in-out;
+    transform:rotateY(20deg);
+    transform-Style:preserve-3d;
+}
+.child1{
+    width: 300px;
+    height:300px;
+    position:absolute;
+    left:30px;
+    top:30px;
+    background-color:#F00;
+    transform:translateZ(50px) rotateY(-230deg);}
+.child2{
+    width: 300px;
+    height:300px;
+    position:absolute;
+    left:30px;
+    top:30px;
+    background-color:#00F;
+    transform:translateZ(150px) rotateX(45deg);    
+}
+.total{
+    width:300px;
+    height:300px;
+    line-height: 300px;
+    margin:10px auto;
+    position: relative;
+    background-color:#080;
+    transition:all .54s ease-in-out;
+    transform-style: preserve-3d;
+    
+}
+.total:hover{transform: rotateY(180deg);
+             transition:all 5s;opacity: .5;
+    box-shadow:inset 0 0 0 10px black;
+            
+}
+/*transition: <property><duration><timing function><delay>
+
+transition-property: width, background-color;
+transition-duration: 10s, 2s;
+*/
+.total > div2,div3{ position:absolute;
+        left:0;
+        width:100%;
+        height:100%;
+        line-height:300px;
+        color:#FFF;
+        font-size:30px;
+        text-align:center:
+      
+}
+.front{
+    z-index:2;
+    background-color:#F00;
+    backface-visibility:hidden;   
+}
+.back{
+    Z-index:1;
+    background-color:orangered;
+    transform: rotateY(180deg);
+    backface-visibility:hidden;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.box {box-sizing:border-box;
+      width:940px
+    ;background:#EEE
+    ;margin:20PX auto
+    ;overflow:hidden
+    }
+
+
+.left{ float:left;
+        width:20%;
+        ;background:blue
+        ;padding:10px
+        ;color:#FFF
+        }
+.right{ float:right;
+         width: 80% ;
+         background:red
+        ;color: #FFF
+        }
+
+.visibility{ visibility:hidden; margin:100px;}
+
+.card{ 
+      width: 350px;
+      height: 500px;
+      background:brown;
+      margin: 50px auto;
+      position: relative;
+      transform-Style : preserve-3d;
+      transition: all 2s ease-in-out;
+      border-radius: 10px;
+}
+.card:hover {
+    
+      transform : rotateX(180deg);
+    
+}
+.card > div {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: #EEE;
+    color:#777;
+    border-radius:10px;
+    border: 1px solid #CCC;
+    font-family:Arial, Tahoma;
+    text-align : center;
+    
+    
+}
+.card .frontface { 
+    z-index: 2;
+    backface-visibility: hidden;
+    /*display: none*/
+}
+.card .frontface  header {
+    background-color: #444;
+    width: 100%;
+    height: 80px;
+
+    margin-bottom: 30px;
+    border-radius: 10px 10px 0 0;
+    
+}
+.card .frontface img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.card .frontface h6 {
+    position: relative;
+    top: 10px;
+    font-size:25px
+}
+.card .frontface p {
+    margin:20px auto;
+    width: 90%
+}
+
+
+.card .backface {
+    z-index: 1;
+    transform: rotateX(180deg);
+}
+.card .backface ul {
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+}
+
+.a22 {
+    width:80%;
+    height:400px;
+    color:#FFF;
+    padding:20px;
+    background:url('../neon.jpg');
+    background-size: cover; /* or :auto auto or:px px or:% % */
+    background-origin: content-box; /* or paadding-box or border-box */
+    
+    overflow-x:scroll; /*or hidden or visable*/
+    resize:both; /*or horizontal or verticail or none*/
+
+}     /*flex*/
+.container {
+    width:800px;
+    margin: 50px auto;
+    background-color:#EEE;
+    padding:0px;
+    display:flex;
+    flex-direction: row-reverse /* or column-reverse */;
+    flex-wrap:nowrap;
+    /*flex-flow: flex-direction&wrap                    short code */
+    justify-content:space-between; /*or fex-start or end or center*/
+    align-items: flex-end /*. or ... or stretch*/;
+}
+.container div33 {
+    background-color :blue;
+    color :#FFF;
+    width:200px;
+    max-height: 80px;
+    padding: 10px;
+    order:2;
+    flex-grow:1;
+}
+.container div34 {
+    background-color :orangered;
+    color :#FFF;
+
+    height: 100px;
+    padding: 10px;
+    order: 1;
+    flex-shrink: 1;
+    flex-basis: 50px
+}
+.container div35 {
+    background-color :#080;
+    color :#FFF;
+    width:200px;
+    max-height: 40px;
+    padding: 10px;
+    order:2;
+    /* short code for flexis     flex:Grow  shrink ...  Basis*/
+}
+
+.transition {
+    width:1000px;
+}
+.transition div {
+    background-color: #F00;
+    margin-bottom:10px;
+
+    width:120px;
+    padding:10px;
+    transition-property:width;
+    transition-duration: 3s;
+    transition-delay: 1s
+}
+ div:first-of-type{
+    transition-timing-function: ease  
+};
+ div:nth-of-type(2){
+    transition-timing-function: linear}
+ div:nth-of-type(3){   
+    transition-timing-function: ease-in}
+ div:nth-of-type(4){
+    transition-timing-function: ease-out}
+ div:nth-of-type(5){
+    transition-timing-function:steps(4, start)}
+div:nth-of-type(6){
+    transition-timing-function:cubic-bezier(.42, 0, .58, 1)}
+ div:last-of-type{ 
+    transition-timing-function: ease-in-out}
+.transition div:hover{
+    width:200px;
+}
+
+
+.co p{
+    height:200px;
+    width:400px;
+    border:1px solid #CCC;
+    padding:10px;
+    -webkit-column-count: 2;
+    column-count:2;
+    -webkit-column-gap: 5px;
+    column-gap: 5px;
+    -webkit-column-rule:0px<width> solid<style> #080<color>;
+    column-rule:0px solid #080;
+    -webkit-columns:200px 4;
+    columns:200px 4;
+}
+
+.co h{
+    -webkit-column-span:all;
+    column-span:all;
+}
+
+.coloring { width:100px;
+             height: 100px;
+             position:absolute;
+             -webkit-animation: moving 5s 2 linear;
+             -moz-animation: moving 5s 2 linear;
+             animation: moving 5s 2 linear;
+             animation-duration: 2s ;
+             animation-iteration-count:infinite;
+             animation-direction:alternate;
+             animation-delay: 8s;
+             animation-fill-mode:backwards;
+             animation-play-state:paused;
+             animation-timing-function: linear; /*mean the same speed when it start and run and end*/
+             /*short code*/
+             /*animation: moving 8s ease 0s 1 normal none running;*/
+} 
+@keyframes moving {
+    0% {
+        background-color: chartreuse;
+        bottom: 0;
+        left:0;
+    } 
+    25% {
+        bottom: 0;
+        left:200px;
+    }
+
+    50% {
+        bottom: 200px;
+        left:200px;
+    }
+    75% {
+        bottom: 200px;
+        left:0;
+    }
+    100% {
+        bottom: 0px;
+        left:0;
+        background-color: #F00;
+
+    }
+
+}/*0% = from*//*100% = to*/
+@-webkit-keyframes moving {
+    0% {
+        bottom: 0;
+        left:0;
+    } 
+    25% {
+        bottom: 0;
+        left:200px;
+    }
+
+    50% {
+        bottom: 200px;
+        left:200px;
+    75% {
+        bottom: 200px;
+        left:0;
+    }
+    100% {    
+        bottom: 200px;
+        left:0;
+    }
+
+}/*0% = from*//*100% = to*/
+
+@-moz-keyframes moving {
+    0% {
+        bottom: 0;
+        left:0;
+    } 
+    25% {
+        bottom: 0;
+        left:200px;
+    }
+
+    50% {
+        bottom: 200px;
+        left:200px;
+    75% {
+        bottom: 200px;
+        left:0;
+    }
+    100% {    
+        bottom: 200px;
+        left:0;
+    }
+
+}/*0% = from*//*100% = to*/
+
+
+/* selectors=> [~ / ^ / $ / *]    */
+    
+p ~ span {
+        border: 1px solid #CCC;
+    }
+[class^="t"] {
+        color:#F00;
+}   /*start with*/
+[class$="m"] {
+        color:green;
+}   /*end with*/
+    
+[class*="ox"]  {
+        background-color: chartreuse;
+}   /* all */
+    
+    
+    
+.osama :checked{
+        width:100px;
+}    
+
+:disabled {
+        background-color: darkred;
+}
+
+:empty{
+       background-color: crimson; 
+    }   
+ ------------------------------------   
+section:not(p) {
+                 color:red;
+}
+section:last-child{
+        background-color:chartreuse;
+} 
+section:first-of-type{
+        background-color:chartreuse;
+} 
+p:only-child{
+    color:red;
+}  
+p:only-of-type{
+    color:red;
+}    
+ 
+::selection{
+    background-color:red;
+    color:yellow;
+}
+    
+div:nth-child(1){
+    color: crimson;}
+div:nth-child(-n+4){
+        color: crimson;
+}
+div:nth-last-child(2){
+        color: crimson;
+}  
+div:nth-of-type(even){
+        background-color: crimson;
+}  
+div:nth-of-type(odd){
+        background-color:darkmagenta;
+}  
+
+
+/*
+    TTF: true type font
+    EOT: Input
+    OTF: open type font
+    WOFF: web type font
+    WOFF2: web type font 2
+    SVG: scalable type font
+*/
+section4{
+        font-family: 'Droid Arabic Kufi', serif; src:url('http://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+    }
+    
+@font-face{
+     font-family: 'Droid Arabic Kufi', serif;
+     src:url('http://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+    }
+    
+    
+@media (max-width : 500px) and (max-width : 500px){
+    div{float:none;
+        background-color: red;
+    }  
+} 
+        
+
+#loading {
+        width:200px;
+        height:50px;
+        margin: 20px auto;
+        position: relative;
+    }   
+    
+#loading div {
+        display:block;
+        position:absolute;
+        height:20px;
+        width:20px;
+        border-radius: 50%;
+        background-color: green;
+        opacity: .5s;
+        animation: snake 1.5s infinite ease-in-out;
+    }
+    
+    
+    #loading  div:nth-of-type(2){
+        left:20px;
+        animation-delay: 0.2s  } 
+    #loading  div:nth-of-type(3){
+        left:40px;
+        animation-delay: 0.4s  } 
+    #loading  div:nth-of-type(4){
+        left:60px;
+        animation-delay: 0.6s   }
+    #loading  div:last-of-type{
+        left:80px;
+        animation-delay: 0.8s}
+    }
+    
+    @keyframes snake{
+        0% {
+            opacity: 0.3;
+            transform: translateY(0);
+        }
+        50%{
+            opacity: :1;
+            transform: translateY(-20px);
+        }
+        100%{
+            opacity:0.3;
+            transform: translateY(0);            
+            transform: translateY(0);
+        }
+    }
+    
+    
+    
+    
+    
+    
+
+ 
